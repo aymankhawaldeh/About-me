@@ -7,48 +7,49 @@ var answer = prompt(' We have 7 skyes ? ')
 var answer = answer.toUpperCase();
 switch (answer) {
     case 'YES':
-        alert(' correct');
-        //console.log( ' wow thats true ')
+        alert('correct');
+
+        //console.log( ' wow thats true ');
 
         break;
     case 'Y':
-        alert(' correct');
-        //console.log( ' wow thats true ')
+        alert('correct');
+        //console.log( ' wow thats true ');
 
         break;
     case 'NO':
         alert(' incorrect');
-        //console.log( ' incorrect  ')
+        //console.log( ' incorrect  ');
 
         break;
     case 'N':
-        alert(' incorrect');
-        //console.log( ' incorrect  ')
+        alert('incorrect');
+        //console.log( ' incorrect  ');
 
         break;
 
     default:
-        alert(' wrong answer ');
+        alert('wrong answer ');
         //console.log( ' wrong  ')
 
         break;
 }
 
-var answer2 = prompt(' misse is  bitter than ronaldo ? ')
+var answer2 = prompt(' misse is  bitter than ronaldo ? ');
 var answer2 = answer2.toUpperCase();
 switch (answer2) {
     case 'YES':
         alert(' correct');
-        //console.log( ' wow thats true ')
+        //console.log( ' wow thats true ');
 
         break;
     case 'Y':
-        alert(' correct');
-        //console.log( ' wow thats true ')
+        alert('correct');
+        //console.log( ' wow thats true ');
 
         break;
     case 'NO':
-        alert(' incorrect');
+        alert('incorrect');
         break;
     case 'N':
         alert(' incorrect');
@@ -56,14 +57,14 @@ switch (answer2) {
 
     default:
         alert(' wrong answer ');
-        //console.log( ' wrong  ')
+        //console.log( ' wrong  ');
 
         break;
 }
-//console.log( ' wow thats true ')
+//console.log( ' wow thats true ');
 
 
-var answer3 = prompt(' Allah is the only god ? ')
+var answer3 = prompt(' Allah is the only god ? ');
 var answer3 = answer3.toUpperCase();
 switch (answer2) {
     case 'YES':
@@ -95,7 +96,7 @@ switch (answer2) {
 }
 
 
-var answer4 = prompt(' are you beautiful ? ')
+var answer4 = prompt(' are you beautiful ? ');
 var answer4 = answer4.toUpperCase();
 switch (answer2) {
     case 'YES':
@@ -126,7 +127,7 @@ switch (answer2) {
         break;
 }
 
-var answer5 = prompt(' are you beautiful ? ')
+var answer5 = prompt(' are you beautiful ? ');
 var answer5 = answer5.toUpperCase();
 switch (answer5) {
     case 'YES':
