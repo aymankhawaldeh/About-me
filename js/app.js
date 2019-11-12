@@ -35,9 +35,9 @@ switch (answer) {
         break;
 }
 
-var answer2 = prompt(' misse is  bitter than ronaldo ? ');
-var answer2 = answer2.toUpperCase();
-switch (answer2) {
+var messi = prompt(' misse is  bitter than ronaldo ? ');
+var messi = messi.toUpperCase();
+switch (messi) {
     case 'YES':
         alert(' correct');
         //console.log( ' wow thats true ');
@@ -64,9 +64,9 @@ switch (answer2) {
 //console.log( ' wow thats true ');
 
 
-var answer3 = prompt(' Allah is the only god ? ');
-var answer3 = answer3.toUpperCase();
-switch (answer2) {
+var god = prompt(' Allah is the only god ? ');
+var god = god.toUpperCase();
+switch (god) {
     case 'YES':
         alert(' correct');
         //console.log( ' wow thats true ')
@@ -96,9 +96,9 @@ switch (answer2) {
 }
 
 
-var answer4 = prompt(' are you beautiful ? ');
-var answer4 = answer4.toUpperCase();
-switch (answer2) {
+var cute = prompt(' are you beautiful ? ');
+var cute = cute.toUpperCase();
+switch (cute) {
     case 'YES':
         alert(' correct');
         //console.log( ' wow thats true ')
@@ -127,9 +127,9 @@ switch (answer2) {
         break;
 }
 
-var answer5 = prompt(' are you beautiful ? ');
-var answer5 = answer5.toUpperCase();
-switch (answer5) {
+var food = prompt(' do you love food ? ');
+var food = food.toUpperCase();
+switch (food) {
     case 'YES':
         alert(' correct');
         //console.log( ' wow thats true ')
