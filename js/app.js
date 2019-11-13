@@ -1,9 +1,12 @@
 'use strict'
 var points = 0;
 
+
 var name = prompt(' what is your name? ');
 alert(' welocme ' + name + ' i wanna ask u 7 questions and u must answer with yes/no also y/n ');
 
+function sky(){
+    
 var answer = prompt(' We have 7 skyes ? ')
 var answer = answer.toUpperCase();
 switch (answer) {
@@ -45,7 +48,10 @@ switch (answer) {
 
         break;
 }
+}
+sky();
 
+function messi(){
 var messi = prompt(' messi is  bitter than ronaldo ? ');
 var messi = messi.toUpperCase();
 switch (messi) {
@@ -83,8 +89,10 @@ switch (messi) {
         break;
 }
 //console.log( ' wow thats true ');
+}
+messi();
 
-
+function god(){
 var god = prompt(' Allah is the only god ? ');
 var god = god.toUpperCase();
 switch (god) {
@@ -123,8 +131,10 @@ switch (god) {
 
         break;
 }
+}
+god();
 
-
+function cute(){
 var cute = prompt(' are you beautiful ? ');
 var cute = cute.toUpperCase();
 switch (cute) {
@@ -165,7 +175,10 @@ switch (cute) {
 
         break;
 }
+}
+cute();
 
+function food(){
 var food = prompt(' do you love food ? ');
 var food = food.toUpperCase();
 switch (food) {
@@ -205,10 +218,11 @@ switch (food) {
 
         break;
 }
+}
+food();
 
 
-
-
+function number(){
 var number = prompt(' I want you to guess what  my favorite number is from 1-5  ? ');
 for (var i = 1; i <= 3; i++) {
 
@@ -234,7 +248,10 @@ for (var i = 1; i <= 3; i++) {
 
 
     }
+}
+number();
 
+function governorate(){
     var governorate = [ "amman" , "tafilah" , "mafraq" , "karak" , "irbid" , "jarash" ,"salt" , "zarqa" ,"maan" , "aqaba" ,"madaba" , "ajloun"]
     var city = prompt('give me a governorate that is in jordan? ')
 
@@ -322,5 +339,8 @@ for (var i = 1; i <= 3; i++) {
             }
 
         }
+
+    }
+    governorate();
 
 alert('these are all the governorate of jordan "Amman" , "Tafilah" , "Mafraq" , "Karak" , "irbid" , "Jarash" ,"Salt" , "Zarqa" ,"Maan" , "Aqaba" ,"Madaba" , "Ajloun" ')
