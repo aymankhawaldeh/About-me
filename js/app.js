@@ -223,6 +223,7 @@ for (var i = 1; i <= 3; i++) {
         alert('false , your grade is ' + points)
 
         number = prompt(' I want you to guess what  my favorite number is from 1-5 ok ? ');
+        
     }
     if (number == 3){
         alert('Correct');
@@ -234,6 +235,9 @@ for (var i = 1; i <= 3; i++) {
 
 
     }
+    alert('this is my favorite number "3" ')
+
+
 
     var governorate = [ "amman" , "tafilah" , "mafraq" , "karak" , "irbid" , "jarash" ,"salt" , "zarqa" ,"maan" , "aqaba" ,"madaba" , "ajloun"]
     var city = prompt('give me a governorate that is in jordan? ')
