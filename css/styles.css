@@ -1,0 +1,49 @@
+    /*body{
+        background-image: url(https://scontent.famm2-1.fna.fbcdn.net/v/t1.0-9/74841947_2531476123613818_7599319162774618112_n.jpg?_nc_cat=103&_nc_eui2=AeFuPommZ4qSk7uNtUyvvmpHhUZWYbva5NmsTxjDCRZbPP5hdbLX7US-1iSyiECsBVdNVvOkCIGjaqCxKZ5Uc0swIn66QcGBXWRqbN4CIHPA5Q&_nc_oc=AQlkefNaLQs9q6xyjdfwnr9av2TYoF-HrzLf4G5Oi2lq7S9OQAVfJvSqaYJSkI1YsP0&_nc_ht=scontent.famm2-1.fna&oh=7ecd9e09306048efe8db20a2dd09dcfc&oe=5E4DC53F);
+        background-repeat:no-repeat;
+         background-size:cover;
+
+    }*/
+    @import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius:50%;
+      }
+      p{
+        font-family: 'Merienda', cursive;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      h1{
+        text-align: center;
+      }
+     
+      body{
+          background-color: saddlebrown;
+      }
+      main{
+          text-align: center;
+      }
+      ol {
+       display: inline-block;
+      
+      }
+      ul{
+          display: inline-block;
+          
+      }
+      footer {
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+      }
+      
+    
+

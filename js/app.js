@@ -326,7 +326,7 @@ function number() {
             points = points + 1;
             alert('your grade is ' + points);
             i = 10
-
+            
         }
 
 
