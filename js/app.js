@@ -67,7 +67,7 @@ function sky() {
 sky();
 
 function validateTwo() {
-    var two = prompt(' messi is  bitter than ronaldo ? ');
+    var two = prompt(' messi is  better than ronaldo ? ');
     while (two === '') {
         two = prompt(' messi is  bitter than ronaldo ? ');
     }
