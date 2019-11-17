@@ -1,10 +1,10 @@
 'use strict'
 var points = 0;
 var name = prompt(' what is your name? ');
-alert(' welocme ' + name + ' i wanna ask u 7 questions and u must answer with yes/no also y/n ');
+alert(' Hi ' + name + ' i wanna ask u 7 questions and u must answer with yes/no also y/n ');
 
 function validateOne() {
-    var one = prompt(' We have 7 skyes ? ')
+    var one = prompt('Do We have 7 skyes ? ')
     while (one === '') {
         one = prompt('please answer with yes or no !')
     }
